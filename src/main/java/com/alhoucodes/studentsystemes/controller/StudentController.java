@@ -26,6 +26,6 @@ public class StudentController {
     }
     @GetMapping("/show")
     public String show(){
-        return "...";;;
+        return "..."
     }
 }
