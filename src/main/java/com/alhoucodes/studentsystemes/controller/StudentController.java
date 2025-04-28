@@ -24,4 +24,8 @@ public class StudentController {
     public List<Student> getAllStudents(){
         return studentService.getAllStudents();
     }
+    @GetMapping("/show")
+    public String show(){
+        return "...";
+    }
 }
