@@ -23,7 +23,7 @@ public class StudentServiceImpl implements StudentService{
         return studentRepository.findAll();
     }
 
-    public Optional<Student> getStudentbyID(long id){
+    public Optional<Student> getStudentbyID(int id){
         return studentRepository.findById(id);
     }
 }
